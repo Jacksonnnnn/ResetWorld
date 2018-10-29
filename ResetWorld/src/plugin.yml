@@ -1,0 +1,14 @@
+main: com.Jacksonnn.ResetWorld.ResetWorld
+name: WorldReset
+author: Jacksonnn
+version: 1.0
+depends: [Multiverse-Core]
+loadafter: [Multiverse-Core]
+commands:
+  resetworld:
+    aliases: [rw, worldreset, wr]
+    usage: /<command>
+permissions:
+  worldreset.use:
+    default: op
+    enabled: true
